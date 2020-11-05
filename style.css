@@ -1,0 +1,74 @@
+body {
+    width: 400px;
+    background-color: rgb(239, 239, 239);
+    color: rgb(0, 0, 0);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;   
+    vertical-align:middle;
+}
+
+table tr {
+    height: 40px;
+    vertical-align: middle;
+}
+
+.activeTab:hover {    
+    background-color: rgb(247, 247, 247);
+    cursor: pointer;
+}
+
+.audioTab:hover {    
+    background-color: rgb(247, 247, 247);
+    cursor: pointer;
+}
+
+.tabIcon {
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.tabIcon img {
+    width: 15px;
+}
+
+.audioTab {
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.audioTab img {
+    width: 20px;
+}
+
+.closeTab {
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.closeTab :hover {    
+    background-color: rgb(247, 247, 247);
+    cursor: pointer;
+}
+
+.closeTab img {
+    width: 20px;
+}
+
+.btnUpper, .btnDown {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 20px;
+}
+
+.limitador {    
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}

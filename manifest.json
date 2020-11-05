@@ -1,0 +1,24 @@
+{
+    "name": "Limitador de abas",
+    "version": "1.0",
+    "description": "Extensão com o intuito de limitar a quantidade de abas abertas no chrome.",
+    "browser_action": {
+        "default_popup": "index.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["http://*/*","https://*/*"],
+            "js": ["jquery-1.11.3.min.js"],
+            "all_frames": true
+        }
+    ],
+    "permissions": [
+      "tabs"
+    ],
+    "icons": { 
+        "16": "assets/logo16.png",
+        "48": "assets/logo48.png",
+        "128": "assets/logo128.png"
+    },
+    "manifest_version": 2
+}
