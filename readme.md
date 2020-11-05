@@ -15,3 +15,7 @@ Este projeto tem por objetivo estudar o desenvolvimento de extenções do navega
 
 Apenas editando e atualizando os documentos, na página chrome://extensions/, clicar no botão de refresh na extenção
 
+# Documentaçao
+
+1. https://developer.chrome.com/extensions
+2. https://developer.chrome.com/extensions/tabs
